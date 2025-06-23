@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Sidebar from "./Sidebar";
 import { useDispatch, useSelector } from "react-redux";
-import { toggleMenu } from "../utils/appslice";
+import { toggleMenu } from "../utils/appSlice";
 import SearchSuggestion from "./SearchSuggestion";
 import { setQuery } from "../utils/searchSlice";
 import { Link } from "react-router-dom";
